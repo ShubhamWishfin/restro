@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="loader">
+        <img src="./videos/loading.gif" alt="loading">
+    </div>
+    <div class="wrapper">
+        <div class="videoWrapper">
+            <video autoplay muted loop id="myVideo">
+                <source src="./videos/homepageVideo.mp4" type="video/mp4">
+            </video>
+        </div>
+        <main class="d-flex flex-column justify-content-between">
+            <header class="py-4">
+                <div class="px-5">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-3">
+                            <div class="reservationBtn">
+                                <a href="">RESERVATIONS</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="logo">
+                                <img src="./images/logo.png" width="90" alt="logo">
+                            </div>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="hamburger text-end">
+                                <i class="fa-solid fa-grip-lines"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <footer class="pb-2 px-4">
+                <div class="d-flex justify-content-between ">
+                    <div class="leftImg">
+                        <img src="./images/leftBottoomLogo.jpg" alt="bottom logo">
+                    </div>
+                    <div class="volume">
+                        <i class="volumeOff fa-solid fa-volume-xmark"></i>
+                        <i class=" volumeOn fa-solid fa-volume-high"></i>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
